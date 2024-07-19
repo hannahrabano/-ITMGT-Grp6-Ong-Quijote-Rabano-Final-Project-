@@ -1,11 +1,8 @@
-/* custom.css */
-
-/* Styling headers */
 h1, h2, h3, h4, h5, h6 {
     color: #7d170e;
     font-family: 'Futura Medium', sans-serif;
     text-align: center
-    letter-spacing: 1.5px; /* Adjust kerning */ss
+    letter-spacing: 1.5px; ss
 }
 
 header img {
@@ -13,13 +10,13 @@ header img {
     height: auto;
 }
 
-/* Styling font */
+
 p, div {
     font-family: 'Futura', sans-serif;
     font-size: 16px;
 }
 
-/* Styling widgets */
+
 .widget-label {
     color: #333;
 }
@@ -36,7 +33,7 @@ p, div {
     font-size: 16px;
     margin: 4x 4px;
     cursor: pointer;
-    white-space: nowrap; /* Ensure text doesn't wrap */
+    white-space: nowrap; 
     overflow: visible;
 }
 
@@ -46,7 +43,7 @@ p, div {
 
 .widget-container {
     display: flex;
-    justify-content: center; /* Center the button */
+    justify-content: center; 
     align-items: center;
     margin: 2px 0;
     width: 100%;
@@ -55,12 +52,12 @@ p, div {
 .jp-TabBar-tab {
     padding: 2px;
     font-size: 5px;
-    white-space: nowrap; /* Prevent text from wrapping */
-    overflow: hidden; /* Prevent overflow */
-    text-overflow: ellipsis; /* Show ellipsis if text overflows */
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
     width: auto;
-    max-width: 500px; /* Set a maximum width to balance the space */
-    min-width: 150px; /* Set a minimum width to balance the space */
+    max-width: 500px; 
+    min-width: 150px; 
 }
 
 .jp-TabBar-tabSelected {
