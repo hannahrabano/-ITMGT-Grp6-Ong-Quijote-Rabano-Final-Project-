@@ -1,0 +1,70 @@
+/* custom.css */
+
+/* Styling headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #7d170e;
+    font-family: 'Futura Medium', sans-serif;
+    text-align: center
+    letter-spacing: 1.5px; /* Adjust kerning */ss
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+/* Styling font */
+p, div {
+    font-family: 'Futura', sans-serif;
+    font-size: 16px;
+}
+
+/* Styling widgets */
+.widget-label {
+    color: #333;
+}
+
+.widget-button {
+    background-color: #7d170e;
+    border: none;
+    color: white;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Futura Medium', sans-serif;
+    font-size: 16px;
+    margin: 4x 4px;
+    cursor: pointer;
+    white-space: nowrap; /* Ensure text doesn't wrap */
+    overflow: visible;
+}
+
+.widget-button:hover {
+    background-color: #9c1d12;
+}
+
+.widget-container {
+    display: flex;
+    justify-content: center; /* Center the button */
+    align-items: center;
+    margin: 2px 0;
+    width: 100%;
+}
+
+.jp-TabBar-tab {
+    padding: 2px;
+    font-size: 5px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Prevent overflow */
+    text-overflow: ellipsis; /* Show ellipsis if text overflows */
+    width: auto;
+    max-width: 500px; /* Set a maximum width to balance the space */
+    min-width: 150px; /* Set a minimum width to balance the space */
+}
+
+.jp-TabBar-tabSelected {
+    background-color: #4CAF50;
+    color: white;
+}
+
